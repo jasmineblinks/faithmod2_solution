@@ -69,7 +69,11 @@ p {
   }
   .col-md-10 {
     width: 85.73%;
-    /* height: 90px; */
+
+    height: 90px;
+  }
+  .col-md-10 p {
+    margin-top: 20px;
   }
 
   .first,
