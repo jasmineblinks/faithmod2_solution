@@ -23,8 +23,10 @@ p {
   background-color: gray;
   border: 2px solid black;
   display: inline-block;
-  width: 30%;
+
+  margin: 5px;
 }
+
 #chicken {
   text-align: center;
   width: 120px;
@@ -55,7 +57,10 @@ p {
 }
 @media (min-width: 1200px) {
   .col-lg-3 {
-    width: 25%;
+    width: 30%;
+  }
+  .first {
+    margin-left: 50px;
   }
 }
 @media (min-width: 767px) and (max-width: 992px) {
@@ -63,7 +68,12 @@ p {
     width: 41.66%;
   }
   .col-md-10 {
-    width: 83.73%;
-    height: 90px;
+    width: 85.73%;
+    /* height: 90px; */
+  }
+
+  .first,
+  .second {
+    margin-left: 50px;
   }
 }
