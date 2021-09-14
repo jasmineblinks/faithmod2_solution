@@ -22,12 +22,14 @@ p {
   padding: 15px;
   margin-left: 10px;
 }
+
 .main {
   background-color: gray;
   border: 2px solid black;
   display: inline-block;
-
-  margin: 5px;
+  width: 85%;
+  margin-bottom: 5px;
+  margin-left: 23px;
 }
 
 #chicken {
